@@ -1,6 +1,6 @@
 # Team-Profile-Generator
 
-(Adding in for reference purposes)
+(Adding in temporarily for reference purposes)
 
 User Story
 AS A manager
