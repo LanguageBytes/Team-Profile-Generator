@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Lora:ital@1&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inconsolata;
+    background-color: rgb(255, 255, 255) ;
+}
+
+#navbar {
+    font-size: 50px;
+    display: flex;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(174, 0, 255);
+}
+
+
+.card-header {
+    background-color:  rgb(174, 0, 255);
+    color: whitesmoke;
+}
+
+.card-body {
+    background-color: rgb(174, 0, 255);
+    color: whitesmoke;
+}
+
+.container {
+    margin: 50px auto;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    
+}
