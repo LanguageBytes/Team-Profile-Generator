@@ -1,9 +1,7 @@
 const Manager = require('../lib/Manager');
 
-// test the following functions
-
-// needs to expect a number
-officeNumber
-
+test("Needs to expect a number", () => {
+OfficeNo()
+})
 
 getRole()—overridden to return 'Manager'

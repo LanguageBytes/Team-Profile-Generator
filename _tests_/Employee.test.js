@@ -1,15 +1,16 @@
 const Employee = require("..lib/Employee");
 
-//Need to check the functionality of following functions
-
+test("Needs to expect a string", () => {
 getName()
 
-// Needs to expect a string
+})
+
+test("Needs to expect a number", () => {
 getId()
+})
 
-// Needs to expect a number
+test("Needs to expect a string with email elements like @", () => {
 getEmail()
-
-// Needs to expect a string with email elements
+})
 
 getRole() returns 'Employee'

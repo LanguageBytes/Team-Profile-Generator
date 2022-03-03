@@ -1,10 +1,8 @@
-const Enginner = require('../lib/Engineer');
+const Engineer = require('../lib/Engineer');
 
 
-// test the following functions 
-
-
+test("Needs to expect a string", () => {
 getGithub()
-
+})
 
 getRole()—overridden to return 'Engineer'
