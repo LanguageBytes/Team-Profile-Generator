@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "jest": "^27.5.1",
     "package.json": "^2.0.1"
   }
 }
