@@ -1,5 +1,6 @@
+const Intern = require('../lib/Intern');
 
-// test the following functions4
+// test the following functions
 
 getSchool()
 
