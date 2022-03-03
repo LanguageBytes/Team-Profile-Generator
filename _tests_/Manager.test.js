@@ -4,4 +4,6 @@ test("Needs to expect a number", () => {
 OfficeNo()
 })
 
-getRole()—overridden to return 'Manager'
+test("Needs to return 'Manager", () => {
+getRole()
+})

@@ -5,4 +5,7 @@ test("Needs to expect a string", () => {
 getSchool()
 })
 
-getRole()—overridden to return 'Intern'
+
+test("Needs to return 'Intern'", () => {
+getRole()
+})
