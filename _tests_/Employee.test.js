@@ -1,17 +1,31 @@
-const Employee = require("..lib/Employee");
+const Employee = require('../lib/Employee');
 
-test("Needs to expect a string", () => {
-getName()
-})
+test('Employee created?', () => {
+    const employee = new Employee('Sarah', 20, 'sarahlloyd@gmail.com');
+    expect(employee.name).toEqual(expect.any(String));
+    expect(employee.id).toEqual(expect.any(Number));
+    expect(employee.email).toEqual(expect.any(String));
+});
 
-test("Needs to expect a number", () => {
-getId()
-})
+test('Name received?', () => {
+    const employee = new Employee('Sarah', 20, 'sarahlloyd@gmail.com');
+    expect(employee.getName()).toEqual(expect.any(String));
+});
 
-test("Needs to expect a string with email elements like @", () => {
-getEmail()
-})
 
-test("Needs to return 'Employee", () => {
-getRole()
-})
+test('Gets employee ID?', () => {
+    const employee = new Employee('Sarah', 20, 'sarahlloyd@gmail.com');
+    expect(employee.getId()).toEqual(expect.any(Number));
+});
+
+
+test('Gets employee email?', () => {
+    const employee = new Employee('Sarah', 20, 'sarahlloyd@gmail.com');
+    expect(employee.getEmail()).toEqual(expect.stringContaining('@'));
+});
+
+
+test('Gets role of employee?', () => {
+    const employee = new Employee('Sarah', 20, 'sarahlloyd@gmail.com');
+    expect(employee.getRole()).toEqual("Employee");
+}); 
