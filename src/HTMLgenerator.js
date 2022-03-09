@@ -1,22 +1,3 @@
-const generateManager = function (manager) {
-    return `
-    <!-- Manager -->
-    <div>
-        <div class="card h-100">
-            <div class="card-header text-center">
-                <h3>${manager.name}</h3>
-                <h4>Manager</h4>
-            </div>
-  
-            <div class="card-body">
-            <a class="email" href="mailto:${manager.email}">Email: ${manager.email}</a>
-                <p class="id">ID: ${manager.id}</p>
-                <p class="officeNo">Office:  ${manager.officeNo}</p>
-            </div>
-        </div>
-     </div>
-    `;
-}
 
 
 const generateEngineer = function (engineer) {
@@ -39,6 +20,27 @@ const generateEngineer = function (engineer) {
  </div>
     `
 }
+
+const generateManager = function (manager) {
+    return `
+    <!-- Manager -->
+    <div>
+        <div class="card h-100">
+            <div class="card-header text-center">
+                <h3>${manager.name}</h3>
+                <h4>Manager</h4>
+            </div>
+  
+            <div class="card-body">
+            <a class="email" href="mailto:${manager.email}">Email: ${manager.email}</a>
+                <p class="id">ID: ${manager.id}</p>
+                <p class="officeNo">Office:  ${manager.officeNo}</p>
+            </div>
+        </div>
+     </div>
+    `;
+}
+
 
 
 const generateIntern = function (intern) {
