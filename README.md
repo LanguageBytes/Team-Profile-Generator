@@ -4,6 +4,10 @@
   <img src="dist/screenshot.jpg"/>
 </p>
 
+## <p align="center"> Description </p>
+
+This is a simple application which generates a team profile using inquirer npm package. When a user initiates the program as stated above, they will be required to answer a series of questions about their team. Once the user has added all desired team members, then a html file will be generated containing information the entered by the user.
+
 Link to demo video - https://watch.screencastify.com/v/vskRqDywMGqjzOgqP4qk
 
 ## <p align="center"> Installation </p>
@@ -14,9 +18,5 @@ Link to demo video - https://watch.screencastify.com/v/vskRqDywMGqjzOgqP4qk
 node index.js
 
 ```
-
-## <p align="center"> Usage </p>
-
-This is a simple application which generates a team profile using inquirer npm package. When a user initiates the program as stated above, they will be required to answer a series of questions about their team. Once the user has added all desired team members, then a html file will be generated containing information the entered by the user.
-
-
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
