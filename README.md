@@ -12,7 +12,7 @@ Link to demo video - https://watch.screencastify.com/v/vskRqDywMGqjzOgqP4qk
 
 ## <p align="center"> Installation </p>
 
-*Node must be installed
+*Node must be installed.
 
 ``` 
 node index.js
