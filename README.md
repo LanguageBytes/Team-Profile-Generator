@@ -25,7 +25,7 @@ npm i
 node index.js
 
 ```
-Answer the questions as prompted. After this step is completed, you should find the generated index.html file under the folder 'dist'.
+Answer the questions as prompted. After this step is completed, you should find the generated index.html file under the folder name 'dist'.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
