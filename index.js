@@ -1,3 +1,4 @@
+// Dependencies and links
 const generateHTML = require('./src/HTMLgenerator');
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
@@ -6,6 +7,8 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const teamMembers = []; 
 
+// Process starts
+// Inquirer activiated
 const addEmployee = () => {
     console.log(`
     ==============================================
@@ -142,7 +145,7 @@ const addEmployee = () => {
 
 };
 
-
+// Take gathered data 
 const writeFile = data => {
     fs.writeFile('./dist/index.html', data, err => {
         if (err) {
@@ -154,6 +157,7 @@ const writeFile = data => {
     })
 }; 
 
+// Execute 
 addEmployee()
   .then(teamMembers => {
     return generateHTML(teamMembers);
